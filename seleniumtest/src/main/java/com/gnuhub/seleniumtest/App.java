@@ -12,10 +12,12 @@ public class App
     public static void main( String[] args )
     {
     	String firefoxpath;
+    	String sugarurl;
+    	sugarurl = System.getProperty("sugarurl");
     	firefoxpath = System.getProperty("firefox");
         System.setProperty("webdriver.firefox.bin", firefoxpath);
         WebDriver driver;
     	driver = new FirefoxDriver();
-    	driver.get("http://www.baidu.com/");
+    	driver.get(sugarurl);
     }
 }
