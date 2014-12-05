@@ -5,3 +5,4 @@ seleniumtest/pom.xml.versionsBackup
 seleniumtest/pom.xml.next
 seleniumtest/release.properties
 seleniumtest/.idea/
+seleniumtest/.gradle/
