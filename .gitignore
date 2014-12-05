@@ -6,3 +6,4 @@ seleniumtest/pom.xml.next
 seleniumtest/release.properties
 seleniumtest/.idea/
 seleniumtest/.gradle/
+seleniumtest/build/
