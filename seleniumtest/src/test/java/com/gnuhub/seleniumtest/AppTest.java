@@ -56,5 +56,6 @@ public class AppTest
         System.out.println(text);
 
         assertEquals("IBM 大连分公司", text);
+        driver.close();
     }
 }
